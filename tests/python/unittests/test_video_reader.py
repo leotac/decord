@@ -14,7 +14,7 @@ def _get_rotated_test_video(rot):
 
 def test_video_reader_len():
     vr = _get_default_test_video()
-    assert len(vr) == 311
+    assert len(vr) == 310
 
 def test_video_reader_read_sequential():
     vr = _get_default_test_video()
